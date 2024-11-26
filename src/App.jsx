@@ -3,6 +3,7 @@ import Cards from './components/Cards'
 import Hero from './components/Hero'
 import NevBar from './components/NevBar'
 import Partners from './components/partners'
+import Train from './components/Train'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <Hero/>
     <Partners/>
     <Cards/>
+    <Train/>
     </>
   )
 }
