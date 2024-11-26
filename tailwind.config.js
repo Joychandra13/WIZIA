@@ -15,8 +15,12 @@ export default {
         secondary: "#96ACAF",
         background: "#002228",
       },
-      fontFamily: { Montserrat: '"Montserrat", sans-serif' },
-      fontFamily: { WorkSans: '"Work Sans", sans-serif' },
+
+    fontFamily: {
+      'WorkSans': [ '"Work Sans", sans-serif' ],
+      'Mont': ['"Montserrat", sans-serif' ],
+    },
+
     },
   },
   darkMode: "class",
