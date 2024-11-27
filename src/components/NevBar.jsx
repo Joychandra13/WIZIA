@@ -30,7 +30,7 @@ function NevBar() {
                 <NavbarItem key={`${item}-${index}`}>
                     <Link
                     color={"secondary"}
-                    className="w-full hover:scale-105 hover:-hue-rotate-180 transition-all duration-2000"
+                    className="w-full hover:scale-105 transition-all duration-2000"
                     href="#"
                     size="lg"
                     >
