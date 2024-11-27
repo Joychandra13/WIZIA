@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div className='bg-[#07292F]'>
+      <div className='bg-[#07292F] overflow-hidden'>
         <NevBar/>
         <Hero/>
         <Partners/>
