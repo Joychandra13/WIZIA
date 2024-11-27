@@ -14,7 +14,7 @@ function NevBar() {
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="2xl" className="bg-[#002228] p-4 ">
+    <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="2xl" className="bg-[#002228] p-4 border-b-1 border-[#183A40]">
         <NavbarContent className="justify-between md:justify-start">
             <NavbarBrand >
                 <img src="/Logo.svg"  alt="" />
