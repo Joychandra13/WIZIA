@@ -2,6 +2,7 @@ import './App.css'
 import AllocateEffort from './components/AllocateEffort'
 import Cards from './components/Cards'
 import Carousel from './components/Carousel'
+import Embrace from './components/Embrace'
 import Hero from './components/Hero'
 import NevBar from './components/NevBar'
 import Partners from './components/partners'
@@ -18,6 +19,7 @@ function App() {
     <Train/>
     <Carousel/>
     <AllocateEffort/>
+    <Embrace/>
     </>
   )
 }
