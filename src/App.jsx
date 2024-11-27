@@ -1,4 +1,5 @@
 import './App.css'
+import AllocateEffort from './components/AllocateEffort'
 import Cards from './components/Cards'
 import Carousel from './components/Carousel'
 import Hero from './components/Hero'
@@ -16,6 +17,7 @@ function App() {
     <Cards/>
     <Train/>
     <Carousel/>
+    <AllocateEffort/>
     </>
   )
 }

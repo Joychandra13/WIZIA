@@ -55,7 +55,7 @@ function Carousel() {
                         {slides.map((slide) => (
                         <div key={slide.id} className='w-full flex flex-shrink-0 flex-col items-center justify-center pb-20'>
                             <img className='w-[56px] md:w-[74px]' src={slide.img} alt="" />
-                            <p className='lg:text-[32px] text-[24px] tracking-[-2%] leading-[41.6px] font-WorkSans font-extralight text-center max-w-[920px] text-secondary mt-[44px] '> {slide.text}</p>
+                            <p className='lg:text-[32px] text-2xl tracking-[-2%] leading-[41.6px] font-extralight text-center max-w-[920px] text-secondary mt-[44px] '> {slide.text}</p>
                             <div className='text-center mt-[40px]'>
                                 <h1 className='md:text-2xl text-[18px] text-primary font-WorkSans font-semibold'>{slide.name}</h1>
                                 <p className='md:text-[20px] text-[18px] text-secondary font-WorkSans font-normal'>{slide.titele}</p>

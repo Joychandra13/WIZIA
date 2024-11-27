@@ -23,9 +23,9 @@ function Train() {
   return (
     <>
         <section className='bg-[#002228] flex justify-center'>
-            <div className=' relative bg-[#09292f] mx-[48px] rounded-3xl md:py-[114px] py-8 px-6 flex items-center container justify-center   bg-cover bg-center bg-no-repeat'>
-            <div className=' absolute inset-0 bg-no-repeat bg-contain  w-full opacity-45 bg-[url("/bg.svg")] rounded-3xl'></div>
-                <div className='md:ps-32'>
+            <div className=' relative bg-[#09292f] mx-[48px] rounded-3xl md:py-[114px] py-8 px-6 flex items-center container justify-center bg-cover bg-center bg-no-repeat'>
+            <div className=' absolute inset-0 bg-no-repeat bg-contain  w-full opacity-45 bg-[url("/bg.svg")] rounded-3xl z-0'></div>
+                <div className='md:ps-32 z-10'>
                     <h1 className='md:text-[40px] text-[28px] font-semibold font-Mont text-white tracking-[-1%] leading-[48.76px]'>Train your aiDR on your...</h1>
                     <h1 className='md:text-[40px] text-[28px] font-medium font-Mont italic text-primary tracking-[-1%] leading-[48.76px]'>prefered email st|</h1>
                     <p className='font-WorkSans md:text-2xl text-lg tracking-[-1%] text-secondary font-light pt-[30px]'>You’re in control. Train your aiDR on <br /> elements of your Marketing strategy.</p>
