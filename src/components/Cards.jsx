@@ -25,20 +25,22 @@ function Cards() {
   return (
     <>
         <section className=" bg-[#002228] px-[24px] py-[40px] md:px-[120px] md:py-[120px]">
-            <div className='container mx-auto flex flex-wrap gap-[48px] md:gap-[24px] items-center justify-center '>
+            <div className='container mx-auto '>
+            <div className=' gap-[48px] md:gap-[24px] flex flex-col sm:flex-row sm:flex-wrap lg:flex-nowrap items-center justify-center md:justify-between'>
             {cards.map((item, i) => (
-                <div key={i} className='hover:bg-[#07292F] hover:shadow-xl hover:scale-110 hover:rounded-md hover:p-3 transition-all duration-5000'>
-                    <div className="items-center md:space-y-6 space-y-4 ">
-                        <div className='text-[64px] text-primary'>
+                <div key={i} className='hover:scale-110 transition-all duration-5000 max-w-[363px] p-1 max-h-[254px]'>
+                    <div className="md:space-y-6 space-y-4 ">
+                        <div className='text-[64px] text-primary hover:scale-105 hover:-hue-rotate-180 hover:rotate-180 transition-all duration-5000'>
                             {item.icon}
                         </div>
-                       <div className='w-[363px]'>
+                        <div >
                             <h1 className="font-bold font-Mont text-[28px] text-white space-y-4">{item.title}</h1>
                             <p className="text-secondary text-[22px] font-light tracking-[-1%]">{item.des}</p>
                         </div>
                     </div>
                 </div>
             ))}
+            </div>
             </div>
         </section>
     </>

@@ -27,11 +27,11 @@ function Train() {
             <div className=' absolute inset-0 bg-no-repeat bg-contain  w-full opacity-40 bg-[url("/bg.svg")] rounded-3xl z-0'></div>
                 <div className='md:ps-32 z-10'>
                     <h1 className='md:text-[40px] text-[28px] font-semibold font-Mont text-white tracking-[-1%] leading-[48.76px]'>Train your aiDR on your...</h1>
-                    <h1 className='md:text-[40px] text-[28px] font-medium font-Mont italic text-primary tracking-[-1%] leading-[48.76px]'>prefered email st /</h1>
+                    <h1 className='md:text-[40px] text-[28px] font-medium font-Mont italic text-primary tracking-[-1%] leading-[48.76px] hover:scale-105 hover:-hue-rotate-180 transition-all duration-5000'>prefered email st /</h1>
                     <p className='md:text-2xl text-lg tracking-[-1%] text-secondary font-light pt-[30px]'>You’re in control. Train your aiDR on <br /> elements of your Marketing strategy.</p>
                 <div className='grid md:grid-cols-2 md:mt-[64px] mt-[30px] place-content-center'>
                 {check.map((item, i) => (
-                    <div key={i}  className="flex items-center gap-[10px]">
+                    <div key={i}  className="flex items-center gap-[10px] hover:scale-105 transition-all duration-5000">
                         <span className="font-medium  font-Mont md:text-[20px] text-base text-primary "><PiCheckCircleDuotone /></span>
                         <h1 className=" font-medium  font-Mont text-[20px] text-base text-primary ">{item.text}</h1>
                     </div>
