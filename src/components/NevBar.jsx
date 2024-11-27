@@ -14,7 +14,7 @@ function NevBar() {
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="2xl" className="bg-[#002228] p-4 border-b-1 border-[#183A40]">
+    <Navbar onMenuOpenChange={setIsMenuOpen} maxWidth="2xl" className="bg-[#002228] p-4 border-b-1 border-[#183A40] fixed">
         <NavbarContent>
             <NavbarBrand >
                 <img className="hover:scale-105 hover:-hue-rotate-180 transition-all duration-5000" src="/Logo.svg"  alt="" />
