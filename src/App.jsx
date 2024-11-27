@@ -1,5 +1,6 @@
 import './App.css'
 import Cards from './components/Cards'
+import Carousel from './components/Carousel'
 import Hero from './components/Hero'
 import NevBar from './components/NevBar'
 import Partners from './components/partners'
@@ -14,6 +15,7 @@ function App() {
     <Partners/>
     <Cards/>
     <Train/>
+    <Carousel/>
     </>
   )
 }
