@@ -54,24 +54,24 @@ function Carousel() {
                     style={{ transform: `translateX(-${currentIndex * 100}%)`,}}>
                         {slides.map((slide) => (
                         <div key={slide.id} className='w-full flex flex-shrink-0 flex-col items-center justify-center pb-20'>
-                            <img src={slide.img} alt="" />
-                            <p className='text-[32px] tracking-[-2%] leading-[41.6px] font-WorkSans font-extralight text-center max-w-[920px] text-secondary mt-[44px]'> {slide.text}</p>
+                            <img className='w-[56px] md:w-[74px]' src={slide.img} alt="" />
+                            <p className='lg:text-[32px] text-[24px] tracking-[-2%] leading-[41.6px] font-WorkSans font-extralight text-center max-w-[920px] text-secondary mt-[44px] '> {slide.text}</p>
                             <div className='text-center mt-[40px]'>
-                                <h1 className='text-2xl text-primary font-WorkSans font-semibold'>{slide.name}</h1>
-                                <p className='text-[20px] text-secondary font-WorkSans font-normal'>{slide.titele}</p>
+                                <h1 className='md:text-2xl text-[18px] text-primary font-WorkSans font-semibold'>{slide.name}</h1>
+                                <p className='md:text-[20px] text-[18px] text-secondary font-WorkSans font-normal'>{slide.titele}</p>
                             </div>
                         </div>
                     ))}
                 </div>
 
                 {/* Navigation Buttons */}
-                <button onClick={handlePrev} className="absolute left-4 md:left-[120px] top-1/2 transform -translate-y-1/2 bg-[#96ACAF33]  p-[12px] rounded-[8px] hover:bg-gray-600">
+                <button onClick={handlePrev} className=" hidden lg:block absolute left-4 md:left-[120px] top-1/2 transform -translate-y-1/2 bg-[#96ACAF33] p-[12px] rounded-[8px] hover:bg-gray-600">
                     <span className={`text-base ${ activeButton === "left" ? "text-primary" : "text-secondary" }`}>
                         <HiArrowNarrowLeft/>
                     </span>
                 </button>
 
-                <button onClick={handleNext} className="absolute right-4 md:right-[120px] top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-[12px] rounded-[8px] hover:bg-gray-600">
+                <button onClick={handleNext} className="hidden lg:block absolute right-4 md:right-[120px] top-1/2 transform -translate-y-1/2 bg-[#96ACAF33] p-[12px] rounded-[8px] hover:bg-gray-600">
                     <span className={`text-base ${ activeButton === "right" ? "text-primary" : "text-secondary"}`}>
                             <HiArrowNarrowRight/>
                     </span>
@@ -81,7 +81,7 @@ function Carousel() {
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2">
         {slides.map((_, index) => (
           <button key={index} onClick={() => setCurrentIndex(index)} 
-          className={`w-3 h-3 rounded-full ${ index === currentIndex ? "bg-primary" : "bg-[#394648]"}`}></button>
+          className={`w-[10px] h-[10px] rounded-full ${ index === currentIndex ? "bg-primary" : "bg-[#394648]"}`}></button>
         ))}
       </div>
             </div>
