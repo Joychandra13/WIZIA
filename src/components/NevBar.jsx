@@ -42,7 +42,7 @@ function NevBar() {
         </NavbarContent>
         <NavbarContent justify="end" className="hidden md:flex">
             <NavbarItem className="space-x-3 ">
-                <Button as={Link} color="primary" href="#" radius="full" className="text-black font-medium font-WorkSans">
+                <Button as={Link} color="primary" href="#" radius="full" className="text-[#002228] font-medium font-WorkSans">
                     Book a Demo
                 </Button>
                 <Button as={Link} color="secondary" href="#" radius="full" variant="bordered" className="text-secondary font-WorkSans">
@@ -66,7 +66,7 @@ function NevBar() {
             <Button as={Link} color="secondary" href="#" radius="full" variant="bordered" className="text-secondary font-WorkSans w-[107px] mt-10">
                 Contact Us
             </Button>
-            <Button as={Link} color="primary" href="#" radius="full" className="text-black font-medium font-WorkSans w-[122px]">
+            <Button as={Link} color="primary" href="#" radius="full" className="text-[#002228] font-medium font-WorkSans w-[122px]">
                 Book a Demo
             </Button>
 

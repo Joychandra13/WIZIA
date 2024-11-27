@@ -14,11 +14,11 @@ function Hero() {
                     More <span className='font-normal italic'>sleads</span>, <br /> less <span className='font-normal italic' style={{ letterSpacing: '0.1em',  }}>people</span>.
                 </h1>
 
-                <p className="text-secondary md:w-[450px] md:text-xl text-lg font-light"> 
+                <p className="text-secondary md:w-[450px] md:text-xl text-lg " style={{fontWeight:"300"}}> 
                     Train an aiDR on your ICP and messaging matrix. Activate it on a patch. It will send personalized sequences to every target contact.
                 </p>
                 
-                <Button variant="solid" color="primary" radius="full" className='text-black font-WorkSans text-base font-medium' style={{marginTop:"24px"}} >
+                <Button variant="solid" color="primary" radius="full" className='text-[#002228] text-base' style={{marginTop:"24px", fontWeight:"500"}} >
                     Sign Up for the Beta <PiArrowSquareUpRightDuotone />
                 </Button>
             </div>

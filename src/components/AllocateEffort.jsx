@@ -25,7 +25,7 @@ function AllocateEffort() {
     <>
         <section className='bg-[#002228] flex justify-center'>
             <div className=' relative bg-[#07292F] mx-[48px] rounded-3xl md:pt-[69px] md:pb-[90px] md:ps-[72px] py-8 px-6 flex items-center container bg-cover  bg-no-repeat'>
-            <div className=' absolute inset-0 bg-no-repeat bg-contain  w-full opacity-45 bg-[url("/bg.svg")] scale-x-[-1] rounded-3xl z-0'></div>
+            <div className=' absolute inset-0 bg-no-repeat bg-contain  w-full opacity-40 bg-[url("/bg.svg")] scale-x-[-1] rounded-3xl z-0'></div>
                 <div className=' z-10'>
                     <h1 className='md:text-[40px] text-[28px] font-semibold font-Mont text-white tracking-[-1%] md:leading-[48.76px] leading-[34.13px]'>Allocate effort where your reps <br /> make an inpact.</h1>
                     <h1 className='md:text-[40px] text-[24px] font-medium font-Mont italic text-primary tracking-[-1%] leading-[48.76px]'>Let us handle the rest.</h1>

@@ -58,7 +58,7 @@ function Carousel() {
                             <p className='lg:text-[32px] text-2xl tracking-[-2%] leading-[41.6px] font-extralight text-center max-w-[920px] text-secondary mt-[44px] '> {slide.text}</p>
                             <div className='text-center mt-[40px]'>
                                 <h1 className='md:text-2xl text-[18px] text-primary font-WorkSans font-semibold'>{slide.name}</h1>
-                                <p className='md:text-[20px] text-[18px] text-secondary font-WorkSans font-normal'>{slide.titele}</p>
+                                <p className='md:text-[20px] text-[18px] text-secondary font-normal'>{slide.titele}</p>
                             </div>
                         </div>
                     ))}

@@ -14,11 +14,11 @@ function Embrace() {
                 <span className='italic'>Embrace </span><span className='font-bold '>the new era of</span> <span className='italic'>outbound.</span>
                 </h1>
 
-                <p className="text-secondary md:text-xl text-lg pt-[23px] font-light"> 
+                <p className="text-secondary md:text-xl text-lg pt-[23px] font-light "> 
                 Wizia lets you train, activate, and optimize aiDRs. <br /> Take your outbound to new levels of performance and efficiency.
                 </p>
             
-                <Button variant="solid" color="primary" radius="full" className='text-black font-WorkSans text-base font-medium ' style={{marginTop:"23px"}}>
+                <Button variant="solid" color="primary" radius="full" className='text-[#002228] text-base font-medium ' style={{marginTop:"23px"}}>
                     Sign Up for the Beta <PiArrowSquareUpRightDuotone />
                 </Button>
             </div>
